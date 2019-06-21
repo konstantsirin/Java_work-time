@@ -18,7 +18,7 @@ public class MyThread extends Thread
     @Override
     public void run()
     {
-        String ACCESS_TOKEN = "Kq8GMFb34IAAAAAAAAAAFLk_t5bofhDSRX75rYqV2AIQ0TSA1E2RnLV01liMzc8v";
+        String ACCESS_TOKEN = "Your key for dropbox";
 
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
         DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
